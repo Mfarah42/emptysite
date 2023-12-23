@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coming Soon</title>
+    <style>
+      body {
+        text-align: center;
+        padding: 150px;
+        background-color: #ffffff;
+        font-family: Arial, sans-serif;
+      }
+
+      h1 {
+        font-size: 50px;
+      }
+
+      p {
+        font-size: 20px;
+      }
+
+      .timer {
+        font-size: 30px;
+        margin-top: 20px;
+      }
+
+      .logo {
+        width: auto;
+        height: auto;
+      }
+
+      /* Responsive design for mobile devices */
+      @media only screen and (max-width: 600px) {
+        body {
+          padding: 50px;
+        }
+
+        h1 {
+          font-size: 30px;
+        }
+
+        p {
+          font-size: 16px;
+        }
+
+        .timer {
+          font-size: 20px;
+        }
+
+        .logo {
+          width: 150px;
+        }
+      }
+
+      /* Loader CSS */
+      .loader {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="loader">
+      <img src="./images/heart.gif" alt="Loading..." />
+    </div>
+    <img class="logo" src="/images/logo.png" alt="Logo" />
+    <h1>Our Website is Coming Soon</h1>
+    <p>We are working hard to bring you a great experience.</p>
+  </body>
+</html>
